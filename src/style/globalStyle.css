@@ -1,0 +1,35 @@
+:root{
+  --primary:#0D2031;
+  --secondary:#1B6A97;
+  --text-primary:white;
+  --text-secondary:grey;
+}
+
+[data-theme='dark']{
+  --primary:tomato;
+  --secondary:#0D2031;
+  --text-primary:black;
+  --text-secondary:grey;
+}
+
+body{
+  margin: 0px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+* {
+  color: tomato !important;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',
+      'Roboto',
+      'Helvetica Neue',
+      Helvetica,
+      Arial,
+      sans-serif;
+  transition: all .5s;
+}
